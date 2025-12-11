@@ -1,0 +1,90 @@
+╔═══════════════════════════════════════════════════════════╗
+║   NOTARY INVOICE GENERATOR - WINDOWS QUICK START          ║
+╚═══════════════════════════════════════════════════════════╝
+
+📋 STEP-BY-STEP GUIDE FOR WINDOWS USERS
+
+STEP 1: Install Python
+-----------------------
+1. Go to: https://www.python.org/downloads/
+2. Download Python 3.11 or 3.12 for Windows
+3. Run the installer
+4. ✅ CHECK "Add Python to PATH" (IMPORTANT!)
+5. Click "Install Now"
+
+
+STEP 2: Extract This Folder
+----------------------------
+Extract the downloaded ZIP to a location like:
+C:\Users\YourName\Documents\notary-invoices
+
+
+STEP 3: Run Setup
+-----------------
+Double-click: setup_windows.bat
+
+This will install all required software.
+
+
+STEP 4: Edit Your Business Info
+--------------------------------
+Open config.yaml in Notepad and fill in:
+- Your business name
+- Your notary commission number
+- Your contact information
+- Your rates
+
+
+STEP 5: Create Invoices
+------------------------
+Option A: Try the examples first
+   Double-click: example_usage_windows.py
+
+Option B: Create your own invoice
+   Double-click: create_invoice.bat
+
+
+═══════════════════════════════════════════════════════════
+
+FILES YOU NEED TO KNOW:
+
+📄 config.yaml
+   Your business settings (EDIT THIS FIRST!)
+
+🖥️ create_invoice.bat
+   Double-click this to create invoices easily
+
+📘 README_WINDOWS.md
+   Full documentation for Windows users
+
+📁 Your invoices will be saved as:
+   invoice_1001.pdf, invoice_1002.pdf, etc.
+
+═══════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+Problem: "Python not found"
+Solution: Reinstall Python and check "Add to PATH"
+
+Problem: "pip not found"
+Solution: Open Command Prompt and run:
+   python -m pip install -r requirements-windows.txt
+
+Problem: Wrong invoice number
+Solution: Delete invoice_counter.txt to reset
+
+═══════════════════════════════════════════════════════════
+
+NEED HELP?
+
+1. Read README_WINDOWS.md for detailed instructions
+2. Check that Python is installed: python --version
+3. Make sure you're using the Windows files:
+   - invoice_generator_windows.py
+   - example_usage_windows.py
+   - requirements-windows.txt
+
+═══════════════════════════════════════════════════════════
+
+Ready to go! Double-click setup_windows.bat to begin! 🚀

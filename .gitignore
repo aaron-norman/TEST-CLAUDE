@@ -1,5 +1,6 @@
 # Generated invoices
 *.pdf
+*_windows.pdf
 
 # Invoice counter
 invoice_counter.txt

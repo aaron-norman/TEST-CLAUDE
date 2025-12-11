@@ -2,6 +2,18 @@
 
 A professional invoice generator designed specifically for notary signing agents and mobile notary businesses. Generate beautiful, detailed PDF invoices with ease.
 
+## 🪟 Windows Users - Start Here!
+
+**If you're on Windows**, use the **Windows Edition** for easy setup with no complex dependencies:
+
+👉 **[README_WINDOWS.md](README_WINDOWS.md)** 👈
+
+- Uses **invoice_generator_windows.py** (ReportLab-based)
+- Install with: `pip install -r requirements-windows.txt`
+- No system libraries needed!
+
+---
+
 ## Features
 
 - **Professional PDF Invoices**: Clean, professional-looking invoices suitable for business use
