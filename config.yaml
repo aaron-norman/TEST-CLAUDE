@@ -1,14 +1,14 @@
 # Notary Business Configuration
 business:
-  name: "Your Notary Business Name"
-  notary_name: "Your Full Name"
-  commission_number: "12345678"
-  commission_expires: "12/31/2025"
-  address: "123 Main Street"
-  city_state_zip: "Anytown, ST 12345"
-  phone: "(555) 123-4567"
-  email: "notary@example.com"
-  website: "www.yournotary.com"
+  name: "Aaron Gawronsky, Notary Public"
+  notary_name: "Aaron Gawronsky"
+  commission_number: "7910346 (Virginia1)"
+  commission_expires: "11/20/2029"
+  address: "1828 16th Street N. Apt 1"
+  city_state_zip: "Arlington VA, 22209"
+  phone: "(202) 999 0151"
+  email: "ag.notarynow@gmail.com"
+  website: "comming soon"
 
 # Default rates (can be overridden per invoice)
 default_rates:
@@ -17,7 +17,7 @@ default_rates:
   travel_fee_per_mile: 0.65
   mobile_notary_fee: 50.00
   printing_per_page: 0.25
-  witness_fee: 25.00
+  witness_fee: 50.00
   after_hours_fee: 50.00
 
 # Invoice settings
