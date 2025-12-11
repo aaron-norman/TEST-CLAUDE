@@ -1,0 +1,28 @@
+# Notary Business Configuration
+business:
+  name: "Your Notary Business Name"
+  notary_name: "Your Full Name"
+  commission_number: "12345678"
+  commission_expires: "12/31/2025"
+  address: "123 Main Street"
+  city_state_zip: "Anytown, ST 12345"
+  phone: "(555) 123-4567"
+  email: "notary@example.com"
+  website: "www.yournotary.com"
+
+# Default rates (can be overridden per invoice)
+default_rates:
+  loan_signing: 150.00
+  general_notarization: 15.00
+  travel_fee_per_mile: 0.65
+  mobile_notary_fee: 50.00
+  printing_per_page: 0.25
+  witness_fee: 25.00
+  after_hours_fee: 50.00
+
+# Invoice settings
+invoice:
+  starting_number: 1001
+  tax_rate: 0.0  # Set to your local tax rate if applicable (e.g., 0.075 for 7.5%)
+  payment_terms: "Payment due within 30 days"
+  notes: "Thank you for your business!"
